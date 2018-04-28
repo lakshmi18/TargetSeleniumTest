@@ -28,8 +28,28 @@ public class TargetWebPage {
 		driver.get("https://www.target.com/");
 		
 		driver.manage().window().maximize();
+		WebElement id = driver.findElementById("search");
+		id.sendKeys("Laptops");
+		id.submit();
+		
+		
+	
+		
+		
+		
+		
 		
 
+	}
+
+	private static void submit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void click() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
